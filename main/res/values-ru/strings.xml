@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="text">Текст</string>
+    <string name="widgetLabel">Заметки</string>
+
+    <string name="save_text">Сохранить</string>
+    <string name="cancel_text">Отмена</string>
+    <string name="notif_setting">Настроить уведомление</string>
+
+    <string name="notify_on">Включить уведомление</string>
+    <string name="notify_time">Время/дата уведомления</string>
+    <string name="notify_date">Дата уведомления</string>
+    <string name="notify_ticker">Текст в строке состояния</string>
+    <string name="notify_title">Заголовок уведомления</string>
+    <string name="notify_text">Текст уведомления</string>
+    <string name="settings_header">Введите заметку</string>
+    <string name="ntf_back_pressed">Нажмите ещё раз для выхода</string>
+
+    <string name="title_activity_settings">Настройка виджета</string>
+    <string name="title_activity_notify_settings">Настройка оповещения</string>
+
+</resources>

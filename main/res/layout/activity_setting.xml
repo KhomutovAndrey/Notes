@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.khomutov_andrey.hom_ai.notes.SettingActivity"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding">
+<include layout="@layout/toolbar"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editTextNotes"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:lines="8"
+        android:background="@drawable/stick1"
+        android:layout_weight="2"
+        android:textColor="@android:color/black"
+        android:hint="@string/settings_header"
+        android:gravity="top"
+        android:textSize="24sp"
+        android:paddingBottom="@dimen/padding" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal|vertical"
+        android:id="@+id/backgraundList"
+        android:orientation="horizontal" />
+
+
+</LinearLayout>

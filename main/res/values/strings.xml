@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="text">Text</string>
+    <string name="widgetLabel">Notes</string>
+
+    <string name="save_text">Save</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="notif_setting">Configure notification</string>
+
+    <string name="notify_on">Enable notification</string>
+    <string name="notify_time">Time/Date of notification</string>
+    <string name="notify_date">Date of notification</string>
+    <string name="notify_ticker">Text in status bar</string>
+    <string name="notify_title">Title of notification</string>
+    <string name="notify_text">Text of notification</string>
+    <string name="settings_header">Enter the note</string>
+    <string name="ntf_back_pressed">Press once again to exit!</string>
+
+    <string name="title_activity_settings">Widget settings</string>
+    <string name="title_activity_notify_settings">Notufy settings</string>
+
+</resources>
